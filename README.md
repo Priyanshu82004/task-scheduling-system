@@ -27,3 +27,9 @@ An efficient task scheduling system implementing multiple scheduling algorithms 
 ```bash
 git clone https://github.com/yourusername/task-scheduling-system.git
 cd task-scheduling-system
+
+## 👨‍💻 Developer
+**Priyanshu Kumar**  
+- GitHub: [@Priyanshu82004](https://github.com/Priyashu82004)
+- Email: anshpandey8755@gmail.com
+- Roll no- 202410101140014(CC+AI)
