@@ -1,0 +1,3 @@
+# Required Python packages
+# This project uses only built-in Python libraries (math, sys)
+# No additional packages needed!
