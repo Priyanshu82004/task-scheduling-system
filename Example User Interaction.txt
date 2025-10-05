@@ -1,0 +1,52 @@
+🚀 Welcome to the Task Scheduling System!
+
+Choose an option:
+1. 📝 Input your own tasks
+2. 🧪 Run with sample tasks
+3. ❌ Exit
+
+Enter your choice (1-3): 1
+
+🎯 Task Scheduling System - User Input
+==================================================
+
+📝 Entering Task #1
+------------------------------
+Enter Task ID (e.g., T1, TaskA): Project_Research
+Enter task duration (in minutes): 120
+Enter priority (1-10, where 10 is highest): 8
+Enter dependencies (comma-separated, e.g., T1,T2 or press Enter for none): 
+Enter deadline (YYYY-MM-DD HH:MM format or press Enter for no deadline): 2024-12-15 17:00
+
+Add another task? (y/n): y
+
+📝 Entering Task #2
+------------------------------
+Enter Task ID (e.g., T1, TaskA): Write_Report
+Enter task duration (in minutes): 90
+Enter priority (1-10, where 10 is highest): 9
+Enter dependencies (comma-separated, e.g., T1,T2 or press Enter for none): Project_Research
+Enter deadline (YYYY-MM-DD HH:MM format or press Enter for no deadline): 2024-12-16 14:00
+
+Add another task? (y/n): n
+
+✅ Added: Task Project_Research: Duration=120min, Priority=8, Dependencies=[], Deadline=2024-12-15 17:00:00
+✅ Added: Task Write_Report: Duration=90min, Priority=9, Dependencies=['Project_Research'], Deadline=2024-12-16 14:00:00
+
+⏳ Scheduling tasks...
+
+📅 FINAL SCHEDULE
+================================================================================
+Task       Start Time            End Time              Duration   Status     
+--------------------------------------------------------------------------------
+Project_R 2024-12-15 14:00    2024-12-15 16:00     120       completed  
+Write_Rep 2024-12-15 16:00    2024-12-15 17:30     90        completed  
+
+📊 PERFORMANCE METRICS
+==================================================
+• Total Tasks: 2
+• Completed On Time: 2
+• On Time Percentage: 100.00
+• Average Tardiness: 0.00
+• Total Completion Time: 210
+• Makespan: 150.00
